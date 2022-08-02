@@ -6,7 +6,7 @@ To get the latest news and updates of Mars, web scraping was used to gather the 
 2.  Store the scraped data on a Mongo database, and use Flask to set up the route for the webpage.
 3.  Create index.html as webpage template and all gathered data would be displayed on this page.
 4.  Set up a *Scrape New Data* button to triggle scarping process.
-5.  Update web app to make it mobile-responsive, and alter some Bootstrap 3 components to make it stand out.
+5.  Update web app to make it mobile-responsive, and alter some Bootstrap components to make it stand out.
 
 ## Results
 - **Latest Mars news**
@@ -40,7 +40,8 @@ To get the latest news and updates of Mars, web scraping was used to gather the 
 
 ## Summary
 
-  - Lowest temperature shows a big difference in June and December. However, the lowest temperature mostly happen in mid-night. The   surf and ice cream shop opens in day. Highest temperature doesn't change too much. So, this won't affect W. Avy's bussiness dramatically.
-  - Even though the average temperature in December is slightly cooler than June overall. It is still very mild weather in Oahu throughout the year. Perfect temperature for surfing and having ice cream.
-  - Since Oahu is an island, surrounded by the ocean. Precipitation is a critial parameter of the weather too. We can do queries of precipitation data for the months of June and December from Measurement table. Ultilize the summary statistics of precipitation data to get more information.
-  - From location to location, the weather is variable too. There are multiple stations for detecting temperature and precipitation. So do the query from Station table to get the tempearature and precipitation differences among stations would help too. We will suggest W. Avy to operate his surf and ice cream shop closer to the station at which fit his target weather better.
+  - Latest Mars news and images were successfuly scraped and displayed. Scrap button is convenient too. This will help us to continually scape new data from librarys. 
+  - Latest news is absolutely exciting. However, for some people who visits this site for the first time, he may wants to know some 
+more information like old news. So old articles can be scraped and added to the site too. Then people can get a better sense of the history of Mars discovery.
+  - Even though we have  changes some bootstrap components, the website still looks plain. More effort can be made on css bootstrap.
+  - As a special website for Mars, we can add some interactive questions to take input. Such as "Would you like to go to Mars?" "If there is a Mars shutter, how much would you like to pay for the trip?" "Do you believe there were lifes existing on Mars"?  
