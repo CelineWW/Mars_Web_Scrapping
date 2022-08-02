@@ -9,15 +9,18 @@ To help Robin, who loves astronomy and wants to work for NASA one day, web scrap
 5. Update web app to make it mobile-responsive, and alter some Bootstrap 3 components to make it stand out.
 
 ## Results
-- **June Temperatures**
+- **Latest Mars news**
+![Latest Mars News](https://user-images.githubusercontent.com/105877888/182433198-24626911-1d42-47fd-987e-42a73129e3fc.PNG)
 
-![june_summary](https://user-images.githubusercontent.com/105877888/180625541-f46eddd5-b21c-4d13-8425-e2e8b9c33ac3.PNG)
 
-- **December Temperatures**
+
+- **Featured Mars Images**
 
 ![december_summary](https://user-images.githubusercontent.com/105877888/180625546-9ef7b818-4031-45bd-bf09-8abb4932bdc4.PNG)
    
-- **3 Differences between June and December Temperatures**
+- **Mars Facts**
+- **Mars Facts**
+- **Mars Hemisphere**
   - Highest and Lowest Temperature
      - The highest and lowest temperature in June are 85.0°F and 64.0°F. The highest and lowest temperature in June are 83.0°F and 56.0°F. Lowest temperatrue in December is fairly colder than in June.
      
