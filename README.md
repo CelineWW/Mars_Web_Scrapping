@@ -12,23 +12,26 @@ To help Robin, who loves astronomy and wants to work for NASA one day, web scrap
 - **Latest Mars news**
 ![Latest Mars News](https://user-images.githubusercontent.com/105877888/182433198-24626911-1d42-47fd-987e-42a73129e3fc.PNG)
 
-
-
 - **Featured Mars Images**
+![Featured Mars Image](https://user-images.githubusercontent.com/105877888/182433349-f4f9d72d-f047-4034-9d99-4b721d6d0a9d.PNG)
 
-![december_summary](https://user-images.githubusercontent.com/105877888/180625546-9ef7b818-4031-45bd-bf09-8abb4932bdc4.PNG)
-   
 - **Mars Facts**
-- **Mars Facts**
+![Mars Facts](https://user-images.githubusercontent.com/105877888/182433409-febe83cf-4f42-4f51-8750-414e84b65d37.PNG)
+
 - **Mars Hemisphere**
-  - Highest and Lowest Temperature
-     - The highest and lowest temperature in June are 85.0°F and 64.0°F. The highest and lowest temperature in June are 83.0°F and 56.0°F. Lowest temperatrue in December is fairly colder than in June.
-     
-  - Averager Temperature 
-     - The average temperature in June is 74.9°F. The average temperature in December is 71.0°F. December is still slightly cooler than June in Oahu. 
-  
-  - Standard Deviation
-    - Standard Deviation is 3.3 and 3.7 for June and December tempertures respectively. This means that in December, the temperature typically has wider distribution than in June.
+![hemisphere_image_urls](https://user-images.githubusercontent.com/105877888/182433594-aaa10f81-8ef6-48a4-8fba-1db0a222fe2e.PNG)
+
+![HR Hemisphere images](https://user-images.githubusercontent.com/105877888/182433629-06757876-3310-4be2-ad00-95c1bd811957.PNG)
+
+- **Device Responsible Web App**
+  - Desktop grid system
+    
+![index webpage](https://user-images.githubusercontent.com/105877888/182433665-1733cf4b-d1f6-4768-b765-72cdfda018e0.PNG)
+
+
+  - Mobile website
+![mobile website](https://user-images.githubusercontent.com/105877888/182434012-6ea94eae-b2c0-4d28-a73f-59434689b522.PNG)
+
 
 ## Summary
 
