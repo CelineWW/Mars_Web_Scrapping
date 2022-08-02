@@ -12,6 +12,7 @@ def scrape_all():
     browser = Browser('chrome', **executable_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
+    hemisphere_image_urls = hemispheres(browser)
 
     # Run all scraping function and store results in dictionary
     data = {
@@ -19,7 +20,9 @@ def scrape_all():
             "news_paragraph": news_paragraph,
             "featured_image": featured_image(browser),
             "facts": mars_facts(),
+            "hemispheres": hemisphere_image_urls,
             "last_modified": dt.datetime.now()
+            
     }
 
     # Stop webdriver and return data
@@ -101,6 +104,46 @@ def mars_facts():
 
     # Convert dataframe int HTML format, add bootstrap
     return  df.to_html(classes="table table-striped")
+
+# ## Hemisphere Data
+
+def hemispheres(browser):
+
+    # Use browser to visit the URL 
+    url = 'https://marshemispheres.com/'
+    browser.visit(url)
+
+    # Create a list to hold the images and titles.
+    hemisphere_image_urls = []
+
+    # Retrieve the image urls and titles for each hemisphere.
+    for i in range(4):
+        # Create a dictionary to hold each image and title.
+        hemisperes = {}
+
+        # Add try/except for error handling
+        try: 
+            # Find the link to access to high-resolution images.
+            browser.find_by_tag('h3')[i].click()
+
+            # Get the image url.
+            img_url_rel = browser.links.find_by_text('Sample').first
+            hemisperes['img_url'] = img_url_rel['href']
+            
+            # Get the title.
+            title = browser.find_by_css('h2.title').text
+            hemisperes['title'] = title
+
+        except AttributeError: 
+            return None
+
+        # Append image and title dictionary to the list.
+        hemisphere_image_urls.append(hemisperes)
+
+        # Go back to the homepage of MarsHemispheres.
+        browser.back()
+
+    return hemisphere_image_urls
 
 
 if __name__ == "__main__":
