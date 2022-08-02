@@ -40,8 +40,8 @@ To get the latest news and updates of Mars, web scraping was used to gather the 
 
 ## Summary
 
-  - Latest Mars news and images were successfuly scraped and displayed. Scrap button is convenient too. This will help us to continually scape new data from librarys. 
+  - Latest Mars news and images were successfuly scraped and displayed. Scraping button is convenient too. This will help us to continually scape new data from different websites. 
   - Latest news is absolutely exciting. However, for some people who visits this site for the first time, he may wants to know some 
 more information like old news. So old articles can be scraped and added to the site too. Then people can get a better sense of the history of Mars discovery.
-  - Even though we have  changes some bootstrap components, the website still looks plain. More effort can be made on css bootstrap.
+  - Even though we have changed some bootstrap components, the website still looks plain. More effort can be made on css bootstrap.
   - As a special website for Mars, we can add some interactive questions to take input. Such as "Would you like to go to Mars?" "If there is a Mars shutter, how much would you like to pay for the trip?" "Do you believe there were lifes existing on Mars"?  
